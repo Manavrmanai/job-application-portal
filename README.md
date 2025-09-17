@@ -45,17 +45,40 @@ npm install
 Create a `.env` file in the root directory:
 
 ```env
+# Database Configuration
+# For local MongoDB:
 MONGODB_URI=mongodb://localhost:27017/jobportal
+
+# For MongoDB Atlas (Production/Cloud):
+# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/jobportal?retryWrites=true&w=majority
+
 PORT=3000
 JWT_SECRET=your_super_secret_jwt_key_here
 NODE_ENV=development
 ```
 
-### 4. Start MongoDB
+### 4. Database Setup
+Choose one of the following options:
+
+#### Option A: Local MongoDB
 Make sure MongoDB is running on your system:
 ```bash
 # For Windows
 net start MongoDB
+
+# For macOS
+brew services start mongodb/brew/mongodb-community
+
+# For Linux
+sudo systemctl start mongod
+```
+
+#### Option B: MongoDB Atlas (Recommended for Production)
+1. Create account at https://www.mongodb.com/atlas
+2. Create a free M0 cluster
+3. Create database user and get connection string
+4. Update your `.env` file with the Atlas connection string
+5. Whitelist your IP address (or 0.0.0.0/0 for testing)
 
 
 ### 5. Seed Sample Data (Optional)

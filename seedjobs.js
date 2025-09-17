@@ -11,7 +11,7 @@ const jobs = [
     location: "Bangalore",
     salary: "₹12,00,000",
     jobtype: "full-time",
-    employer: "68c9201327dae34f895e84e8"
+    employer: "68ca541d4d035f6e45628971"
   },
   {
     title: "Backend Developer",
@@ -21,7 +21,7 @@ const jobs = [
     location: "Hyderabad",
     salary: "₹15,00,000",
     jobtype: "full-time",
-    employer: "68c9201327dae34f895e84e8"
+    employer: "68ca541d4d035f6e45628971"
   },
   {
     title: "Data Scientist",
@@ -31,7 +31,7 @@ const jobs = [
     location: "Bangalore",
     salary: "₹18,00,000",
     jobtype: "full-time",
-    employer: "68c9201327dae34f895e84e8"
+    employer: "68ca541d4d035f6e45628971"
   },
   {
     title: "UI/UX Designer",
@@ -41,7 +41,7 @@ const jobs = [
     location: "Delhi",
     salary: "₹9,00,000",
     jobtype: "contract",
-    employer: "68c9201327dae34f895e84e8"
+    employer: "68ca541d4d035f6e45628971"
   },
   {
     title: "DevOps Engineer",
@@ -51,7 +51,7 @@ const jobs = [
     location: "Remote",
     salary: "₹20,00,000",
     jobtype: "full-time",
-    employer: "68c9201327dae34f895e84e8"
+    employer: "68ca541d4d035f6e45628971"
   },
   {
     title: "Mobile App Developer",
@@ -61,7 +61,7 @@ const jobs = [
     location: "Mumbai",
     salary: "₹10,00,000",
     jobtype: "full-time",
-    employer: "68c9201327dae34f895e84e8"
+    employer: "68ca541d4d035f6e45628971"
   },
   {
     title: "Software Intern",
@@ -71,7 +71,7 @@ const jobs = [
     location: "Chennai",
     salary: "₹20,000/month",
     jobtype: "internship",
-    employer: "68c9201327dae34f895e84e8"
+    employer: "68ca541d4d035f6e45628971"
   },
   {
     title: "Cloud Engineer",
@@ -81,7 +81,7 @@ const jobs = [
     location: "Pune",
     salary: "₹14,00,000",
     jobtype: "full-time",
-    employer: "68c9201327dae34f895e84e8"
+    employer: "68ca541d4d035f6e45628971"
   },
   {
     title: "AI Research Engineer",
@@ -91,7 +91,7 @@ const jobs = [
     location: "Remote",
     salary: "₹25,00,000",
     jobtype: "full-time",
-    employer: "68c9201327dae34f895e84e8"
+    employer: "68ca541d4d035f6e45628971"
   },
   {
     title: "QA Engineer",
@@ -101,7 +101,7 @@ const jobs = [
     location: "Ahmedabad",
     salary: "₹7,00,000",
     jobtype: "full-time",
-    employer: "68c9201327dae34f895e84e8"
+    employer: "68ca541d4d035f6e45628971"
   },
   
 ];
