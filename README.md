@@ -52,7 +52,7 @@ MONGODB_URI=mongodb://localhost:27017/jobportal
 # For MongoDB Atlas (Production/Cloud):
 # MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/jobportal?retryWrites=true&w=majority
 
-PORT=3000
+PORT=10000
 JWT_SECRET=your_super_secret_jwt_key_here
 NODE_ENV=development
 ```
@@ -95,7 +95,7 @@ npm run dev
 npm start
 ```
 
-The server will start on `http://localhost:3000`
+The server will start on `http://localhost:10000`
 
 ## 📁 Project Structure
 
@@ -127,7 +127,7 @@ job-application-portal/
 
 ### Base URL
 ```
-http://localhost:3000/api
+http://localhost:10000/api
 ```
 
 ### Authentication
@@ -514,7 +514,7 @@ Authorization: Bearer <your_jwt_token>
 
 1. **Import the collection** (you can create one with all endpoints)
 2. **Set up environment variables**:
-   - `baseURL`: `http://localhost:3000/api`
+   - `baseURL`: `http://localhost:10000/api`
    - `token`: `{{token}}` (will be set automatically after login)
 
 ### Sample Testing Workflow
@@ -548,7 +548,7 @@ Authorization: Bearer <your_jwt_token>
 
 ```env
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/jobportal
-PORT=3000
+PORT=10000
 JWT_SECRET=your_super_secure_production_jwt_secret_key
 NODE_ENV=production
 ```
